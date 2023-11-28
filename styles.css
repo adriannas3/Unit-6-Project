@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    color: white;
+    text-align: center;
+    font-family: 'Staatliches', sans-serif;
+  background-image: url("https://m.media-amazon.com/images/S/pv-target-images/aa22f7bd40726af6afd9c54799b3cbe996ade4542b502f08f8d64e832f2e18b1.jpg");
+}
+
+.title {
+    font-size: 50px;
+    background-color: red;
+    font-weight: 800;
+    padding: 0 20px;
+}
+
+.begin, .restart{
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.firstImage {
+    height: 350px;
+}
+
+
+
+
+.Part-Two-Yes {
+    font-family: 'Coiny', cursive;
+}
+
+
+.Part-Two-No {
+    font-family: 'Coiny', cursive;
+}
+
+.Story-Ending-Yes {
+    font-family: 'Coiny', cursive;
+}
+
+.Story-Ending-No {
+    font-family: 'Coiny', cursive;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.friend{
+    display:flex;
+    justify-content:center;
+    display:none;
+}
+
+
+.buttons, .win, .v, .lose, .restart, .secImage, .bankimg, .shutimg, .thirdImage, .truce{
+    display:none;
+}
+
+.start, .shut, .bank, .restart{
+    background-color:#C1D7AE;
+    font-size:25px;
+    font-family:"Monaco", monospace;
+    border-radius:10%;
+    border:solid green 2px;
+}
+
+
+
+
+
+
